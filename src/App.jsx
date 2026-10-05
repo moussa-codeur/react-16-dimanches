@@ -1,10 +1,10 @@
+import Bienvenue from "./Bienvenue"
 function App() {
   return(
     <div>
-      <h1>Bonjour, je m'appelle Moussa.</h1>
-      <p>Je suis développeur.</p>
-      <p>J'apprends ReactJS.</p>
+      <h1>Mon application React</h1>
+      <Bienvenue/>
     </div>
   );
 }
-export default App
+export default App;
